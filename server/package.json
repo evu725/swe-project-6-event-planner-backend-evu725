@@ -1,0 +1,24 @@
+{
+  "name": "swe-project-6-event-planner-backend-evu725",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js",
+    "db:seed": "node db/seed.js"
+  },
+  "dependencies": {
+    "bcrypt": "^5.1.1",
+    "cookie-session": "^2.1.1",
+    "dotenv": "^16.6.1",
+    "express": "^4.22.1",
+    "pg": "^8.20.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.14"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
